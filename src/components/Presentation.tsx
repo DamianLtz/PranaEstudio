@@ -73,7 +73,7 @@ const Presentation = () => {
               />
             </p>
             <ul className="row align-items-center list-services">
-              <li className="col-lg-4 col-md-6 col-sm-6 gy-3 gy-lg-0">
+              <li className="col-lg-4 col-md-6 col-sm-6 gy-4 gy-lg-0">
                 <div>
                   <p
                     className="text-center cursor-default text-service"
@@ -93,7 +93,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-2 col-md-6 col-sm-6 gy-3 gy-lg-0">
+              <li className="col-lg-2 col-md-6 col-sm-6 gy-4 gy-lg-0">
                 <div>
                   <p
                     onMouseEnter={() => setBackColor("bg-hover-color")}
@@ -113,7 +113,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-3 col-md-6 col-sm-6 gy-3 gy-lg-0">
+              <li className="col-lg-3 col-md-6 col-sm-6 gy-4 gy-lg-0">
                 <div>
                   <p
                     className="text-center cursor-default text-service"
@@ -133,7 +133,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-3 col-md-6 col-sm-6 gy-3 gy-lg-0">
+              <li className="col-lg-3 col-md-6 col-sm-6 gy-4 gy-lg-0">
                 <div>
                   <p
                     onMouseEnter={() => setBackColor("bg-hover-color")}
