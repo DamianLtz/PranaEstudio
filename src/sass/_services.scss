@@ -5,6 +5,9 @@
 .title-services {
   font-size: 2rem;
   font-weight: 600;
+  @media (min-width: 1400px) {
+    font-size: 3rem;
+  }
 }
 
 .list-services {
@@ -52,4 +55,8 @@
       }
     }
   }
+}
+
+.mockup{
+  background-color: $color-white;
 }

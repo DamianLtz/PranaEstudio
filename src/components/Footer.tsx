@@ -10,10 +10,10 @@ import { FormattedMessage } from "react-intl";
 
 const Footer = () => {
   return (
-    <footer className="container-fluid container-footer" id="contacto">
+    <footer className="container-fluid container-footer py-5 py-lg-0" id="contacto">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-5 offset-lg-1 pb-5 pb-lg-0">
+          <div className="col-lg-5 offset-lg-1 pb-3">
             <p className="idea">
               <FormattedMessage
                 id="app-footer-1"
@@ -29,10 +29,10 @@ const Footer = () => {
             <img
               src={LogoFooter}
               alt=""
-              className="img-fluid logo-footer mt-4"
+              className="img-fluid logo-footer mt-3"
             />
           </div>
-          <div className="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
+          <div className="col-lg-5 offset-lg-1">
             <a
               href="https://wa.me/541165693554"
               className="d-flex align-items-center container-social"

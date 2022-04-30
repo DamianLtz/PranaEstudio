@@ -1,37 +1,43 @@
-$font-proyect: 'Cadiz', sans-serif;
+$font-proyect: "Cadiz", sans-serif;
 $color-body: #212121;
 $color-grey: #4b4b4b;
-$color-light-grey: #F9F9F9;
+$color-light-grey: #f9f9f9;
 $color-green: #74e2c0;
 $color-purple: #25033b;
-$color-pink: #D7756F;
+$color-pink: #d7756f;
 $color-white: #ffffff;
-$color-orange: #D7C66F;
+$color-orange: #d7c66f;
 $text-dark: #212529;
 
 h1,h2,h3,h4,h5,h6,p,a,ul,li{
-    margin: 0;
-    padding: 0;
-    font-family: $font-proyect;
-    color: $color-white;
+  margin: 0;
+  padding: 0;
+  font-family: $font-proyect;
+  color: $color-white;
 }
 
-.cursor-default{
+.cursor-default {
   cursor: default;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
+}
+
+body {
+  background-color: $color-body;
 }
