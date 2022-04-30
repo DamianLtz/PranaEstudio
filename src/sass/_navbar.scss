@@ -1,0 +1,33 @@
+.bg-navbar-dark {
+  background-color: $color-body;
+}
+
+.bg-navbar-light {
+  background-color: $color-white;
+  // background-color: crimson;
+  .nav-link {
+    color: $color-body;
+    font-weight: 600;
+  }
+}
+
+.nav-link:focus {
+  color: $color-white;
+}
+
+.logo-navbar {
+  width: 100px;
+  height: auto;
+}
+
+.navbar {
+  padding: 0.75rem 0;
+  transition: background-color 0.35s ease-in-out;
+}
+
+.nav-link {
+  color: $color-white;
+  &:hover {
+    color: $color-green;
+  }
+}

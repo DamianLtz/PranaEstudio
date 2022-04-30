@@ -1,0 +1,42 @@
+.container-footer {
+  padding-top: 4.25rem;
+  padding-bottom: 4.25rem;
+  background-color: $color-body;
+  @media (min-width: 991px) {
+    padding-top: 16.25rem;
+    padding-bottom: 16.25rem;
+  }
+}
+
+.idea {
+  font-weight: 600;
+  font-size: 2.5rem;
+  @media (min-width: 991px) {
+    font-size: 3rem; 
+  }
+  @media (min-width: 1400px) {
+    font-size: 4rem;
+  }
+}
+
+.idea-2{
+  font-size: 1.5rem;
+  @media (min-width: 1400px) {
+    font-size: 2rem;
+  }
+}
+
+.container-social {
+  padding: 0.75rem 0;
+  width: fit-content;
+  p{
+    @media (min-width: 1400px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.logo-footer {
+  width: 200px;
+  height: auto;
+}

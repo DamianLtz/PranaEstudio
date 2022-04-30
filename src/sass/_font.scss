@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Cadiz";
+  src: url("../font/Cadiz-Bold.eot");
+  src: local("Cadiz Bold"), local("Cadiz-Bold"),
+    url("../font/Cadiz-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/Cadiz-Bold.woff2") format("woff2"),
+    url("../font/Cadiz-Bold.woff") format("woff"),
+    url("../font/Cadiz-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cadiz";
+  src: url("../font/Cadiz-SemiBold.eot");
+  src: local("Cadiz SemiBold"), local("Cadiz-SemiBold"),
+    url("../font/Cadiz-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../font/Cadiz-SemiBold.woff2") format("woff2"),
+    url("../font/Cadiz-SemiBold.woff") format("woff"),
+    url("../font/Cadiz-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cadiz";
+  src: url("../font/Cadiz-Regular.eot");
+  src: local("Cadiz"), local("Cadiz-Regular"),
+    url("../font/Cadiz-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/Cadiz-Regular.woff2") format("woff2"),
+    url("../font/Cadiz-Regular.woff") format("woff"),
+    url("../font/Cadiz-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cadiz";
+  src: url("../font/Cadiz-Light.eot");
+  src: local("Cadiz Light"), local("Cadiz-Light"),
+    url("../font/Cadiz-Light.woff2") format("woff2"),
+    url("../font/Cadiz-Light.woff") format("woff"),
+    url("../font/Cadiz-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}

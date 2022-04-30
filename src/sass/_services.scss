@@ -1,0 +1,55 @@
+.col-spacing {
+  padding: 2rem 0;
+}
+
+.title-services {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.list-services {
+  position: relative;
+  z-index: 10;
+  padding-top: 4.5rem;
+  li {
+    .text-service {
+      position: relative;
+      -webkit-text-stroke: 0.5px $color-white;
+      color: transparent;
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: start;
+      transition: all 0.35s ease-in-out;
+      .effect {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -16px;
+        margin: auto;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: $color-green;
+        opacity: 0;
+        transition: opacity 0.35s ease-in-out;
+      }
+      &:hover {
+        color: $color-white;
+        .effect {
+          opacity: 1;
+        }
+      }
+      @media (min-width: 1400px) {
+        font-size: 3rem;
+      }
+    }
+    .text-service-2 {
+      padding-top: 1rem;
+      font-size: 1.125rem;
+      font-weight: 400;
+      @media (min-width: 1400px) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

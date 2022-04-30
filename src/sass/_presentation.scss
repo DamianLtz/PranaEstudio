@@ -1,0 +1,129 @@
+.background-presentation {
+  background-color: $color-body;
+  transition: background-color 0.35s ease-in-out;
+  .container {
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.bg-hover-color {
+  background-color: $color-pink;
+}
+
+.container-presentation {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  grid-template-rows: 1fr;
+  padding-top: 4rem;
+}
+
+.text-presentation {
+  font-size: 2.5rem;
+  font-weight: 600;
+  @media (min-width: 576px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 991px) {
+    font-size: 4rem;
+  }
+  @media (min-width: 1400px) {
+    font-size: 5.5rem;
+  }
+  span {
+    transition: color 0.35s ease-in-out;
+    color: $color-green;
+  }
+}
+
+.btn-contact {
+  display: flex;
+  background-color: $color-white;
+  border: 1px solid $color-white;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 48px;
+  width: fit-content;
+  font-weight: 600;
+  transition: transform 0.15s ease-in-out;
+  p {
+    color: $text-dark;
+  }
+  svg {
+    margin-left: 0.5rem;
+    color: $color-body;
+    transition: 0.2s ease-in-out;
+  }
+  &:hover {
+    // background-color: $color-purple;
+    // p {
+    //   color: $color-white;
+    // }
+    svg {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.arrow-container {
+  position: relative;
+  bottom: 32px;
+  .arrowDown {
+    width: 24px;
+    height: 40px;
+  }
+}
+
+.deco-right-side {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: $color-green;
+  border-radius: 50%;
+  opacity: 0.75;
+  filter: blur(80px);
+  top: 129px;
+  right: -174px;
+  @media (min-width: 1400px) {
+    top: 175px;
+  }
+}
+
+.deco-right-side-hover {
+  background-color: $color-orange;
+}
+
+.deco-left-side {
+  position: absolute;
+  top: 97px;
+  left: -280px;
+  img {
+    width: 413px;
+    height: 413px;
+    @media (min-width: 991px) {
+      width: 613px;
+      height: 613px;
+      top: 107px;
+    }
+    @media (min-width: 1400px) {
+      width: 855px;
+      height: 855px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .circle {
+    animation: circle-presentation-spin infinite 20s linear;
+  }
+}
+
+@keyframes circle-presentation-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
