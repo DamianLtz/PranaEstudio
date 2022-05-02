@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../context/langContext";
-import Prana from "../img/icons/logo-prana-navbar.svg";
+import Prana from "../img/icons/logo-prana.svg";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
@@ -54,7 +54,11 @@ const Navbar = () => {
       }`}>
       <div className="container">
         <a className="navbar-brand" href="/">
-          <img src={Prana} alt="Logo de Prana" className="logo-navbar" />
+          <img
+            src={Prana}
+            alt="Logo de Prana estudio"
+            className="logo-navbar"
+          />
         </a>
         <button
           className={`navbar-toggler border-0 shadow-none nav-icon-dark ${

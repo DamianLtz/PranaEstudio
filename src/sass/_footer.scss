@@ -1,13 +1,3 @@
-// .container-footer {
-//   padding-top: 4.25rem;
-//   padding-bottom: 4.25rem;
-//   background-color: $color-body;
-//   @media (min-width: 991px) {
-//     padding-top: 16.25rem;
-//     padding-bottom: 16.25rem;
-//   }
-// }
-
 .container-footer {
   display: grid;
   place-items: center;
@@ -38,6 +28,10 @@
 .container-social {
   padding: 0.75rem 0;
   width: fit-content;
+  .icon-social {
+    width: 26px;
+    height: 24px;
+  }
   p {
     @media (min-width: 1400px) {
       font-size: 1.5rem;

@@ -1,12 +1,12 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 
-import LogoFooter from "../img/icons/logoPranaFooter.svg";
+import LogoFooter from "../img/icons/logo-prana.svg";
 import Whatsapp from "../img/icons/whatsapp-logo.svg";
 import Instagram from "../img/icons/instagram-logo.svg";
 import Behance from "../img/icons/behanceLogo.svg";
 import Mail from "../img/icons/mail.svg";
 import Location from "../img/icons/map.svg";
-import { FormattedMessage } from "react-intl";
 
 const Footer = () => {
   return (

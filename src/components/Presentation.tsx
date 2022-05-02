@@ -15,7 +15,7 @@ const Presentation = () => {
           <div className="container-presentation">
             <div className="row">
               <div className="col-lg-12">
-                <h1 className="text-presentation">
+                <h1 className="text-presentation" aria-label="Hola">
                   <FormattedMessage
                     id="app-presentation-1"
                     defaultMessage="Desde la primera"
