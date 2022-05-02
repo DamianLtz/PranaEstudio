@@ -6,16 +6,13 @@ import Prana from "../img/icons/logo-prana-navbar.svg";
 const Navbar = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
   const [isActive, setActive] = useState<boolean>(false);
-  const [actualLang, setActualLang] = useState<boolean>(false);
 
   const language = useContext(langContext);
 
   const changeLanguageNavbar = () => {
-    if (actualLang) {
-      setActualLang(!actualLang);
+    if (language.lang === "en-US") {
       language.changeLanguage("es-AR");
     } else {
-      setActualLang(!actualLang);
       language.changeLanguage("en-US");
     }
   };
@@ -70,7 +67,6 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
           onClick={handleToggle}>
-          {/* <span className="navbar-toggler-icon"></span> */}
           <span></span>
           <span></span>
           <span></span>
@@ -108,7 +104,7 @@ const Navbar = () => {
               <button
                 className="nav-link navbar-link btn border-0 bg-transparent shadow-none"
                 onClick={changeLanguageNavbar}>
-                {actualLang ? "ES" : "EN"}
+                {language.lang === "es-AR" ? "EN" : "ES"}
               </button>
             </li>
           </ul>

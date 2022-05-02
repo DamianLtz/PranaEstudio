@@ -29,7 +29,7 @@ const Footer = () => {
             <img
               src={LogoFooter}
               alt=""
-              className="img-fluid logo-footer mt-3"
+              className="img-fluid logo-footer"
             />
           </div>
           <div className="col-lg-5 offset-lg-1">

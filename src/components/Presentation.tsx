@@ -28,7 +28,7 @@ const Presentation = () => {
                     {" "}
                     <FormattedMessage
                       id="app-presentation-2"
-                      defaultMessage="bocanada"
+                      defaultMessage="idea"
                     />
                   </span>
                   ,
@@ -47,7 +47,12 @@ const Presentation = () => {
                 </h1>
                 <div>
                   <Button
-                    text="Mirá nuestros trabajos"
+                    text={
+                      <FormattedMessage
+                        id="app-button-link"
+                        defaultMessage="idea"
+                      />
+                    }
                     link="https://www.behance.net/pranaestudio"
                   />
                 </div>
@@ -73,7 +78,7 @@ const Presentation = () => {
               />
             </p>
             <ul className="row align-items-center list-services">
-              <li className="col-lg-4 col-md-6 col-sm-6 gy-4 gy-lg-0">
+              <li className="col-lg-4 col-md-6 col-sm-6">
                 <div>
                   <p
                     className="text-center cursor-default text-service"
@@ -93,7 +98,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-2 col-md-6 col-sm-6 gy-4 gy-lg-0">
+              <li className="col-lg-2 col-md-6 col-sm-6">
                 <div>
                   <p
                     onMouseEnter={() => setBackColor("bg-hover-color")}
@@ -113,7 +118,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-3 col-md-6 col-sm-6 gy-4 gy-lg-0">
+              <li className="col-lg-3 col-md-6 col-sm-6">
                 <div>
                   <p
                     className="text-center cursor-default text-service"
@@ -133,7 +138,7 @@ const Presentation = () => {
                   </p>
                 </div>
               </li>
-              <li className="col-lg-3 col-md-6 col-sm-6 gy-4 gy-lg-0">
+              <li className="col-lg-3 col-md-6 col-sm-6">
                 <div>
                   <p
                     onMouseEnter={() => setBackColor("bg-hover-color")}
@@ -156,7 +161,12 @@ const Presentation = () => {
             </ul>
             <div className="d-flex justify-content-center py-5">
               <Button
-                text="Mirá nuestros trabajos"
+                text={
+                  <FormattedMessage
+                    id="app-button-link"
+                    defaultMessage="Mirá nuestros trabajos"
+                  />
+                }
                 link="https://www.behance.net/pranaestudio"
               />
             </div>

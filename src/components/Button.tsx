@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IButton {
-  text: string;
+  text: string | JSX.Element;
   link: string;
 }
 
