@@ -5,16 +5,27 @@ import mockup3 from "../img/mockups/prana-work-3.png";
 
 const Mockup = () => {
   return (
-    // <div className="d-flex justify-content-center">
-    //   <img src={mockup1} alt="" className="img-fluid w-100 mockup"/>
-    //   <img src={mockup2} alt="" className="img-fluid w-100" />
-    //   <img src={mockup3} alt="" className="img-fluid w-100"/>
-    // </div>
-    <div className="row">
-      <div className="col-lg-12">
-        <img src={mockup1} alt="" className="img-fluid w-33 mockup" />
-        <img src={mockup2} alt="" className="img-fluid w-33" />
-        <img src={mockup3} alt="" className="img-fluid w-33" />
+    <div className="row g-0">
+      <div className="col-lg-4">
+        <img
+          src={mockup1}
+          alt="Primer imagen de trabajos realizados por prana"
+          className="img-fluid"
+        />
+      </div>
+      <div className="col-lg-4">
+        <img
+          src={mockup2}
+          alt="Segunda imagen de trabajos realizados por prana"
+          className="img-fluid"
+        />
+      </div>
+      <div className="col-lg-4">
+        <img
+          src={mockup3}
+          alt="Tercer imagen de trabajos realizados por prana"
+          className="img-fluid"
+        />
       </div>
     </div>
   );
